@@ -122,7 +122,18 @@ int main(void) {
   A->letter = 'A';
   A->next = NULL;
 
-  
+  K2->next= A;
+
+/*
+  //STOP
+  Chuk* STOP = malloc(sizeof(Chuk));
+
+  STOP->letter = '.';
+  STOP->next = NULL;
+
+  A->next = STOP;
+*/
+
  
   for ( Chuk* temp = list; temp != NULL; temp = temp->next){
     printf("%c\n",temp->letter);
