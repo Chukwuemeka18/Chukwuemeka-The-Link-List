@@ -13,8 +13,10 @@ Chuk;
 
 int main(void) {
   
-  //C
+  
   Chuk* list;
+
+  //C
   Chuk* C = malloc(sizeof(Chuk));
 
   C->letter = 'C';
@@ -25,8 +27,8 @@ int main(void) {
   //H
   Chuk* H = malloc(sizeof(Chuk));
 
-    H->letter = 'H';
-    H->next = NULL;
+  H->letter = 'H';
+  H->next = NULL;
 
   C->next = H;
 
